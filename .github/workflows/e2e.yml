@@ -28,5 +28,5 @@ jobs:
 
       - name: Run e2e tests in headless mode
         env:
-          HEADLESS: true
+          headless: true
         run: npx playwright test tests/home.spec.ts  # Make sure this path is correct
