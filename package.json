@@ -1,0 +1,28 @@
+{
+  "name": "playwright-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.7",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.9",
+    "eslint": "^9.18.0",
+    "eslint-plugin-playwright": "^2.2.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1"
+  }
+}
