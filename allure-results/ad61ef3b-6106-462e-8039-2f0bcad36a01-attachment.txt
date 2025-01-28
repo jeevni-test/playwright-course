@@ -1,0 +1,19 @@
+  pw:api => selectors.setTestIdAttribute started +87ms
+  pw:api <= selectors.setTestIdAttribute succeeded +0ms
+  pw:api => browser.newContext started +1ms
+  pw:api <= browser.newContext succeeded +1ms
+  pw:api => browserContext.newPage started +1ms
+  pw:api <= browserContext.newPage succeeded +25ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +1ms
+  pw:api   "commit" event fired +665ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +242ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +272ms
+  pw:api   "load" event fired +54ms
+  pw:api <= page.goto succeeded +9ms
+  pw:api => locator.textContent started +1ms
+  pw:api waiting for locator('#zak-primary-menu li[id*="menu"]').nth(3) +3ms
+  pw:api   locator resolved to <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">…</li> +6ms
+  pw:api <= locator.textContent succeeded +3ms

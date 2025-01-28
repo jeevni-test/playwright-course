@@ -1,0 +1,98 @@
+  pw:api => selectors.setTestIdAttribute started +0ms
+  pw:api => browserType.launch started +1ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api <= browserType.launch succeeded +89ms
+  pw:api => browser.newContext started +11ms
+  pw:api <= browser.newContext succeeded +32ms
+  pw:api => browserContext.newPage started +17ms
+  pw:api <= browserContext.newPage succeeded +106ms
+  pw:api => page.goto started +3ms
+  pw:api navigating to "https://practice.sdetunicorns.com/contact", waiting until "load" +3ms
+  pw:api   "commit" event fired +1s
+  pw:api   navigated to "https://practice.sdetunicorns.com/contact/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +212ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +232ms
+  pw:api   navigated to "https://www.google.com/maps/embed?origin=mfe&pb=!1m4!2m1!1sToronto,+Ontario!5e0!6i15" +3ms
+  pw:api   "load" event fired +308ms
+  pw:api <= page.goto succeeded +8ms
+  pw:api => locator.fill started +2ms
+  pw:api waiting for locator('.contact-name input') +3ms
+  pw:api   locator resolved to <input type="text" required="" class="input-text" id="evf-277-field_ys0GeZISRs-1" name="everest_forms[form_fields][ys0GeZISRs-1]"/> +6ms
+  pw:api   fill("Marcus Kilback") +1ms
+  pw:api attempting fill action +0ms
+  pw:api   waiting for element to be visible, enabled and editable +1ms
+  pw:api <= locator.fill succeeded +13ms
+  pw:api => locator.fill started +1ms
+  pw:api waiting for locator('.contact-email input') +2ms
+  pw:api   locator resolved to <input required="" type="email" class="input-text" id="evf-277-field_LbH5NxasXM-2" name="everest_forms[form_fields][LbH5NxasXM-2]"/> +1ms
+  pw:api   fill("Herta.Macejkovic82@gmail.com") +0ms
+  pw:api attempting fill action +0ms
+  pw:api   waiting for element to be visible, enabled and editable +2ms
+  pw:api <= locator.fill succeeded +5ms
+  pw:api => locator.fill started +0ms
+  pw:api waiting for locator('.contact-phone input') +2ms
+  pw:api   locator resolved to <input type="text" required="" class="input-text" id="evf-277-field_66FR384cge-3" name="everest_forms[form_fields][66FR384cge-3]"/> +1ms
+  pw:api   fill("1-934-333-8425 x6517") +0ms
+  pw:api attempting fill action +0ms
+  pw:api   waiting for element to be visible, enabled and editable +1ms
+  pw:api <= locator.fill succeeded +5ms
+  pw:api => locator.fill started +0ms
+  pw:api waiting for locator('.contact-message textarea') +2ms
+  pw:api   locator resolved to <textarea class="input-text" id="evf-277-field_yhGx3FOwr2-4" name="everest_forms[form_fields][yhGx3FOwr2-4]"></textarea> +2ms
+  pw:api   fill("Laudantium spiculum cogito derelinquo deleo vorago cibo auctor minima. Omnis cuppedia volaticus tergeo subseco vinco desino anser approbo subiungo. Fugit ver traho cras veniam ustulo exercitationem templum adopto approbo.
+  pw:api Trucido solvo voluptas magnam versus. Statua confugo acsi arma patruus accommodo cunctatio nisi cibus dolorem. Reiciendis vereor sit.
+  pw:api Paulatim vitium tui abbas. Adulescens vestigium amplexus eius tergum copia amitto. Vix tamisium volva tenax aperte spiritus consequuntur curia incidunt tricesimus.") +1ms
+  pw:api attempting fill action +0ms
+  pw:api   waiting for element to be visible, enabled and editable +2ms
+  pw:api <= locator.fill succeeded +6ms
+  pw:api => locator.click started +0ms
+  pw:api waiting for locator('button[type=submit]') +2ms
+  pw:api   locator resolved to <button type="submit" value="evf-submit" id="evf-submit-277" aria-live="assertive" conditional_rules="""" name="everest_forms[submit]" data-process-text="Processing…" conditional_id="evf-submit-277" class="everest-forms-submit-button button evf-submit ">Submit</button> +1ms
+  pw:api attempting click action +0ms
+  pw:api   waiting for element to be visible, enabled and stable +0ms
+  pw:api   element is not stable +20ms
+  pw:api retrying click action +0ms
+  pw:api   waiting for element to be visible, enabled and stable +0ms
+  pw:api   element is not stable +33ms
+  pw:api retrying click action +0ms
+  pw:api   waiting 20ms +0ms
+  pw:api   waiting for element to be visible, enabled and stable +24ms
+  pw:api   element is not stable +26ms
+  pw:api retrying click action +0ms
+  pw:api   waiting 100ms +0ms
+  pw:api   waiting for element to be visible, enabled and stable +102ms
+  pw:api   element is not stable +31ms
+  pw:api retrying click action +0ms
+  pw:api   waiting 100ms +0ms
+  pw:api   waiting for element to be visible, enabled and stable +101ms
+  pw:api   element is not stable +33ms
+  pw:api retrying click action +0ms
+  pw:api   waiting 500ms +0ms
+  pw:api   "networkidle" event fired +207ms
+  pw:api   waiting for element to be visible, enabled and stable +294ms
+  pw:api   element is visible, enabled and stable +15ms
+  pw:api   scrolling into view if needed +0ms
+  pw:api   done scrolling +1ms
+  pw:api   element is outside of the viewport +0ms
+  pw:api retrying click action +0ms
+  pw:api   waiting 500ms +0ms
+  pw:api   waiting for element to be visible, enabled and stable +501ms
+  pw:api   element is visible, enabled and stable +15ms
+  pw:api   scrolling into view if needed +0ms
+  pw:api   done scrolling +0ms
+  pw:api   performing click action +8ms
+  pw:api   click action done +6ms
+  pw:api   waiting for scheduled navigations to finish +1ms
+  pw:api   navigated to "about:blank" +159ms
+  pw:api   "commit" event fired +630ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/contact/" +0ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/contact/" +0ms
+  pw:api   navigations have finished +11ms
+  pw:api <= locator.click succeeded +13ms
+  pw:api => expect.toHaveText started +2ms
+  pw:api expect.toHaveText with timeout 5000ms +8ms
+  pw:api waiting for locator('div[role=alert]') +0ms
+  pw:api   locator resolved to <div role="alert" class="everest-forms-notice everest-forms-notice--success everest-forms-submission-scroll">↵⇆⇆Thanks for contacting us! We will be in touch …</div> +8ms
+  pw:api <= expect.toHaveText succeeded +6ms
+  pw:api   "domcontentloaded" event fired +18ms

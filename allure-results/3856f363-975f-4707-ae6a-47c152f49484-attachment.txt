@@ -1,0 +1,41 @@
+  pw:api => selectors.setTestIdAttribute started +52ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +1ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +24ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +1ms
+  pw:api   "commit" event fired +630ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +212ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +239ms
+  pw:api   "load" event fired +32ms
+  pw:api <= page.goto succeeded +9ms
+  pw:api => locator.elementHandles started +1ms
+  pw:api <= locator.elementHandles succeeded +13ms
+  pw:api => elementHandle.textContent started +1ms
+  pw:api waiting for locator(':scope') +2ms
+  pw:api   locator resolved to <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-456 current_page_item menu-item-489">…</li> +1ms
+  pw:api <= elementHandle.textContent succeeded +1ms
+  pw:api => elementHandle.textContent started +1ms
+  pw:api waiting for locator(':scope') +1ms
+  pw:api   locator resolved to <li id="menu-item-491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-491">…</li> +1ms
+  pw:api <= elementHandle.textContent succeeded +2ms
+  pw:api => elementHandle.textContent started +0ms
+  pw:api waiting for locator(':scope') +2ms
+  pw:api   locator resolved to <li id="menu-item-567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-567">…</li> +0ms
+  pw:api <= elementHandle.textContent succeeded +2ms
+  pw:api => elementHandle.textContent started +0ms
+  pw:api waiting for locator(':scope') +1ms
+  pw:api   locator resolved to <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">…</li> +2ms
+  pw:api <= elementHandle.textContent succeeded +2ms
+  pw:api => elementHandle.textContent started +1ms
+  pw:api waiting for locator(':scope') +2ms
+  pw:api   locator resolved to <li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493">…</li> +1ms
+  pw:api <= elementHandle.textContent succeeded +2ms
+  pw:api => elementHandle.textContent started +0ms
+  pw:api waiting for locator(':scope') +1ms
+  pw:api   locator resolved to <li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619">…</li> +1ms
+  pw:api <= elementHandle.textContent succeeded +2ms

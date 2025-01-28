@@ -1,0 +1,20 @@
+  pw:api => selectors.setTestIdAttribute started +72ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +38ms
+  pw:api => page.goto started +2ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +5ms
+  pw:api   "commit" event fired +641ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +245ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +198ms
+  pw:api   "load" event fired +34ms
+  pw:api <= page.goto succeeded +8ms
+  pw:api => expect.toBeVisible started +1ms
+  pw:api expect.toBeVisible with timeout 5000ms +3ms
+  pw:api waiting for locator('text=Think different. Make different.') +0ms
+  pw:api   locator resolved to <h1 class="elementor-heading-title elementor-size-default">Think different. Make different.</h1> +8ms
+  pw:api <= expect.toBeVisible succeeded +2ms

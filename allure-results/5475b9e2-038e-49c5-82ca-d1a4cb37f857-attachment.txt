@@ -1,0 +1,20 @@
+  pw:api => selectors.setTestIdAttribute started +51ms
+  pw:api <= selectors.setTestIdAttribute succeeded +0ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +1ms
+  pw:api <= browserContext.newPage succeeded +26ms
+  pw:api => page.goto started +2ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +3ms
+  pw:api   "commit" event fired +681ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +274ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +230ms
+  pw:api   "load" event fired +1s
+  pw:api <= page.goto succeeded +9ms
+  pw:api => expect.toHaveTitle started +1ms
+  pw:api expect.toHaveTitle with timeout 5000ms +3ms
+  pw:api waiting for locator(':root') +0ms
+  pw:api   locator resolved to <html lang="en-US">…</html> +6ms
+  pw:api <= expect.toHaveTitle succeeded +2ms
