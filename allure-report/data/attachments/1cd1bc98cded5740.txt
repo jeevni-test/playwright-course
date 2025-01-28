@@ -1,0 +1,25 @@
+  pw:api => selectors.setTestIdAttribute started +0ms
+  pw:api => browserType.launch started +2ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api <= browserType.launch succeeded +153ms
+  pw:api => browser.newContext started +14ms
+  pw:api <= browser.newContext succeeded +56ms
+  pw:api => browserContext.newPage started +13ms
+  pw:api <= browserContext.newPage succeeded +84ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://practice.sdetunicorns.com/my-account", waiting until "load" +3ms
+  pw:api   "commit" event fired +1s
+  pw:api   navigated to "https://practice.sdetunicorns.com/my-account/" +1ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   "load" event fired +702ms
+  pw:api <= page.goto succeeded +7ms
+  pw:api => expect.toBeVisible started +4ms
+  pw:api expect.toBeVisible with timeout 5000ms +3ms
+  pw:api waiting for locator('form[class*="login"]') +1ms
+  pw:api   locator resolved to <form method="post" class="woocommerce-form woocommerce-form-login login">…</form> +10ms
+  pw:api <= expect.toBeVisible succeeded +1ms
+  pw:api => expect.toBeVisible started +1ms
+  pw:api expect.toBeVisible with timeout 5000ms +1ms
+  pw:api waiting for locator('form[class*="register"]') +1ms
+  pw:api   locator resolved to <form method="post" class="woocommerce-form woocommerce-form-register register">…</form> +1ms
+  pw:api <= expect.toBeVisible succeeded +1ms

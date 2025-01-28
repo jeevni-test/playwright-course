@@ -1,0 +1,24 @@
+  pw:api => selectors.setTestIdAttribute started +73ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +52ms
+  pw:api => page.goto started +7ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +2ms
+  pw:api   "commit" event fired +686ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +229ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +204ms
+  pw:api   "load" event fired +37ms
+  pw:api <= page.goto succeeded +10ms
+  pw:api => page.waitForSelector started +1ms
+  pw:api waiting for locator('#zak-primary-menu') to be visible +3ms
+  pw:api   locator resolved to visible <ul id="zak-primary-menu" aria-expanded="false" class="zak-primary-menu nav-menu">…</ul> +7ms
+  pw:api <= page.waitForSelector succeeded +3ms
+  pw:api => expect.toBeEnabled started +1ms
+  pw:api expect.toBeEnabled with timeout 5000ms +2ms
+  pw:api waiting for locator('#zak-primary-menu a').filter({ hasText: 'Home' }) +0ms
+  pw:api   locator resolved to <a aria-current="page" href="https://practice.sdetunicorns.com/">Home</a> +2ms
+  pw:api <= expect.toBeEnabled succeeded +3ms

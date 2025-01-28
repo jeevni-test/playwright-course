@@ -1,0 +1,17 @@
+  pw:api => selectors.setTestIdAttribute started +64ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +1ms
+  pw:api <= browserContext.newPage succeeded +25ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +0ms
+  pw:api   "commit" event fired +678ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +284ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +248ms
+  pw:api   "load" event fired +51ms
+  pw:api <= page.goto succeeded +10ms
+  pw:api => locator.allTextContents started +2ms
+  pw:api <= locator.allTextContents succeeded +9ms

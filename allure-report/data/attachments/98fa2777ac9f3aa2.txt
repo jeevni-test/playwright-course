@@ -1,0 +1,32 @@
+  pw:api => selectors.setTestIdAttribute started +37ms
+  pw:api <= selectors.setTestIdAttribute succeeded +1ms
+  pw:api => browser.newContext started +1ms
+  pw:api <= browser.newContext succeeded +1ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +24ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://playwright.dev/", waiting until "load" +0ms
+  pw:api   "commit" event fired +137ms
+  pw:api   navigated to "https://playwright.dev/" +0ms
+  pw:api   "domcontentloaded" event fired +345ms
+  pw:api   "load" event fired +67ms
+  pw:api <= page.goto succeeded +8ms
+  pw:api => locator.click started +5ms
+  pw:api waiting for getByRole('link', { name: 'Get started' }) +3ms
+  pw:api   locator resolved to <a href="/docs/intro" class="getStarted_Sjon">Get started</a> +14ms
+  pw:api attempting click action +4ms
+  pw:api   waiting for element to be visible, enabled and stable +1ms
+  pw:api   element is visible, enabled and stable +26ms
+  pw:api   scrolling into view if needed +0ms
+  pw:api   done scrolling +0ms
+  pw:api   performing click action +3ms
+  pw:api   navigated to "https://playwright.dev/docs/intro" +16ms
+  pw:api   click action done +5ms
+  pw:api   waiting for scheduled navigations to finish +0ms
+  pw:api   navigations have finished +3ms
+  pw:api <= locator.click succeeded +2ms
+  pw:api => expect.toBeVisible started +3ms
+  pw:api expect.toBeVisible with timeout 5000ms +4ms
+  pw:api waiting for getByRole('heading', { name: 'Installation' }) +0ms
+  pw:api   locator resolved to <h1>Installation</h1> +152ms
+  pw:api <= expect.toBeVisible succeeded +24ms

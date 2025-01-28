@@ -1,0 +1,24 @@
+  pw:api => selectors.setTestIdAttribute started +45ms
+  pw:api <= selectors.setTestIdAttribute succeeded +0ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +1ms
+  pw:api <= browserContext.newPage succeeded +29ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +2ms
+  pw:api   "commit" event fired +667ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +1s
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +214ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +213ms
+  pw:api   "load" event fired +32ms
+  pw:api <= page.goto succeeded +8ms
+  pw:api => page.waitForSelector started +1ms
+  pw:api waiting for locator('.zak-header-actions') to be visible +2ms
+  pw:api   locator resolved to 2 elements. Proceeding with the first one: <div class="zak-header-actions zak-header-actions--desktop">…</div> +7ms
+  pw:api <= page.waitForSelector succeeded +2ms
+  pw:api => expect.toBeVisible started +2ms
+  pw:api expect.toBeVisible with timeout 5000ms +3ms
+  pw:api waiting for locator('//div[contains(@class, "zak-header-actions")]//a[contains(@class, "zak-header-search__toggle")]').first() +0ms
+  pw:api   locator resolved to <a href="#" class="zak-header-search__toggle">…</a> +1ms
+  pw:api <= expect.toBeVisible succeeded +2ms

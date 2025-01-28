@@ -1,0 +1,39 @@
+  pw:api => selectors.setTestIdAttribute started +53ms
+  pw:api <= selectors.setTestIdAttribute succeeded +0ms
+  pw:api => browser.newContext started +1ms
+  pw:api <= browser.newContext succeeded +1ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +29ms
+  pw:api => page.goto started +3ms
+  pw:api navigating to "https://practice.sdetunicorns.com/", waiting until "load" +0ms
+  pw:api   "commit" event fired +658ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/" +0ms
+  pw:api   "domcontentloaded" event fired +804ms
+  pw:api   navigated to "https://wordpress.com/widgets/3rd-party-cookie-check/" +278ms
+  pw:api   navigated to "https://public-api.wordpress.com/wp-admin/rest-proxy/?v=2.0#https://wordpress.com" +308ms
+  pw:api   "load" event fired +41ms
+  pw:api <= page.goto succeeded +8ms
+  pw:api => expect.not.toHaveURL started +1ms
+  pw:api expect.not.toHaveURL with timeout 5000ms +2ms
+  pw:api waiting for locator(':root') +1ms
+  pw:api   locator resolved to <html lang="en-US">…</html> +6ms
+  pw:api <= expect.not.toHaveURL succeeded +2ms
+  pw:api => locator.click started +1ms
+  pw:api waiting for locator('#get-started') +2ms
+  pw:api   locator resolved to <a id="get-started" href="#get-started" class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow">…</a> +2ms
+  pw:api attempting click action +1ms
+  pw:api   waiting for element to be visible, enabled and stable +0ms
+  pw:api   element is visible, enabled and stable +16ms
+  pw:api   scrolling into view if needed +1ms
+  pw:api   done scrolling +0ms
+  pw:api   performing click action +3ms
+  pw:api   navigated to "https://practice.sdetunicorns.com/#get-started" +11ms
+  pw:api   click action done +0ms
+  pw:api   waiting for scheduled navigations to finish +0ms
+  pw:api   navigations have finished +0ms
+  pw:api <= locator.click succeeded +34ms
+  pw:api => expect.toHaveURL started +1ms
+  pw:api expect.toHaveURL with timeout 5000ms +2ms
+  pw:api waiting for locator(':root') +0ms
+  pw:api   locator resolved to <html lang="en-US">…</html> +1ms
+  pw:api <= expect.toHaveURL succeeded +2ms

@@ -1,0 +1,18 @@
+  pw:api => selectors.setTestIdAttribute started +83ms
+  pw:api <= selectors.setTestIdAttribute succeeded +0ms
+  pw:api => browser.newContext started +0ms
+  pw:api <= browser.newContext succeeded +2ms
+  pw:api => browserContext.newPage started +2ms
+  pw:api <= browserContext.newPage succeeded +23ms
+  pw:api => page.goto started +1ms
+  pw:api navigating to "https://playwright.dev/", waiting until "load" +0ms
+  pw:api   "commit" event fired +172ms
+  pw:api   navigated to "https://playwright.dev/" +0ms
+  pw:api   "domcontentloaded" event fired +273ms
+  pw:api   "load" event fired +52ms
+  pw:api <= page.goto succeeded +7ms
+  pw:api => expect.toHaveTitle started +1ms
+  pw:api expect.toHaveTitle with timeout 5000ms +5ms
+  pw:api waiting for locator(':root') +0ms
+  pw:api   locator resolved to <html lang="en" dir="ltr" data-theme="light" data-has-hydrated="true" class="plugin-pages plugin-id-default" data-rh="lang,dir,class,data-has-hydrated">…</html> +8ms
+  pw:api <= expect.toHaveTitle succeeded +5ms
