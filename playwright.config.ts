@@ -32,7 +32,7 @@ module.exports = defineConfig({
     baseURL: 'https://practice.sdetunicorns.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'retain-on-failure',
+    trace: 'on',
 
     storageState: 'loggedInState.json',
   },
