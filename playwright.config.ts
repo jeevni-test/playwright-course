@@ -29,7 +29,7 @@ module.exports = defineConfig({
   
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'https://practice.sdetunicorns.com/',
+    baseURL: 'https://practice.sdetunicorns.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
@@ -41,7 +41,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] , headless: false},
+      use: { ...devices['Desktop Chrome'] , headless: true},
     },
 
     // {

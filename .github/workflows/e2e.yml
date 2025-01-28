@@ -1,32 +1,17 @@
 name: "e2e"
-
-on:
-  push:
-    branches:
-      - githubactions
-      - develop  # You can add more branches if you want
-
+on: [push]
 jobs:
   test-e2e:
-    name: Run e2e tests
-    runs-on: ubuntu-latest
+    name: Run E2E tests
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
-
       - uses: actions/setup-node@v2
         with:
-          node-version: "16"  # You can update to a more recent version if needed
-
+          node-version: '14'
       - name: Install dependencies
         run: npm ci
-
       - name: Install Playwright
-        run: npm install playwright --save-dev  # You can install the exact version of Playwright specified in package.json
-
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps  # This ensures the required browsers are installed
-
-      - name: Run e2e tests in headless mode
-        env:
-          headless: true
-        run: npx playwright test tests/home.spec.ts  # Make sure this path is correct
+        run: npx playwright install --with-deps
+      - name: Run your tests
+        run: npx playwright test tests/home.spec.ts

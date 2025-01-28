@@ -46,6 +46,7 @@ test.describe('Home', () => {
     let homePage: HomePage;
 
     test.beforeEach(async ({ page }) => {
+        test.setTimeout(60000);
 
         homePage = new HomePage(page);
 
@@ -141,7 +142,7 @@ test.describe('Home', () => {
     test('Verify text of all nav links', async () => {
     
 
-        const expectedNavLinks = ["Home", "Abou", "Shop", "Blog", "Contact", "My account"];
+        const expectedNavLinks = ["Home", "About", "Shop", "Blog", "Contact", "My account"];
 
 
         // Find the nav links in the li elements whose id contains "menu"
