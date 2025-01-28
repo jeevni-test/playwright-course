@@ -22,7 +22,7 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   //if I want to use multiple reporters syntax: [['list'], ['json', { outputFile: 'results.json' }]]
-  reporter: [['allure-playwright'], ['line']],
+  reporter: [['allure-playwright', {outputFolder: 'test-results'}], ['line']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   
   globalSetup: require.resolve('./utils/global-setup.ts'),
